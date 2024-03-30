@@ -63,7 +63,7 @@ while True:
     # bat and ball draw
     mainSurface.blit(ball, ballRect)
     mainSurface.blit(bat, batRect)
-    imagenTextoPresent = letra30.render(f"NIVEL {level}", True, (200,200,200), (0,0,0))
+    imagenTextoPresent = letra30.render(f"LEVEL {level}", True, (200,200,200), (0,0,0))
     mainSurface.blit(imagenTextoPresent, (630,30))
     
     # events
